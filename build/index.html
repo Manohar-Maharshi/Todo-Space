@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Todo Space</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/app.css">
+		
+
+		
+
+		<link rel="modulepreload" href="/./_app/start-541f3464.js">
+		<link rel="modulepreload" href="/./_app/chunks/vendor-b757be19.js">
+		<link rel="modulepreload" href="/./_app/layout.svelte-e590a5a4.js">
+		<link rel="modulepreload" href="/./_app/pages/index.svelte-99d51132.js">
+		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/index.svelte-5cc22ec8.css">
+
+		<script type="module">
+			import { start } from "/./_app/start-541f3464.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":"/."},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/layout.svelte-e590a5a4.js"),
+						import("/./_app/pages/index.svelte-99d51132.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<main>
+
+
+<main class="svelte-1vlct2"><div class="form svelte-1vlct2"><div class="input-field"><input type="text" maxlength="25" placeholder="Add Tasks..." class="svelte-1vlct2" value="">
+	<button type="button" class="svelte-1vlct2">➕</button></div>
+<div class="indicators svelte-1vlct2"><p class="indi-total svelte-1vlct2">Total Tasks: 0</p>
+	<p class="indi-done svelte-1vlct2">Completed Tasks: 0</p>
+	<p class="indi-total svelte-1vlct2">Remaining Tasks: 0</p></div></div>
+	<ul class="svelte-1vlct2">No Tasks...</ul>
+</main></main>
+
+
+
+	
+</div>
+	</body>
+</html>
